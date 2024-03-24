@@ -1,0 +1,150 @@
+/* width: var(--view-width);
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 2rem; */
+.navbar {
+  padding: 20px 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+}
+.nav-center {
+  width: var(--view-width);
+  max-width: (--view-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  color: rgb(32, 30, 30);
+  font-weight: 500;
+  font-size: 25px;
+}
+.logo span {
+  color: brown;
+}
+.nav-link {
+  margin-left: 1rem;
+  color: brown;
+  font-weight: 500;
+  font-size: 20px;
+}
+.nav-link:hover {
+  border-bottom: 1px solid brown;
+}
+
+.about-section {
+  margin-top: 5rem;
+}
+.about-section h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.about-section p {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 22px;
+  letter-spacing: 1.5px;
+}
+.error-section {
+  margin-top: 5rem;
+  text-align: center;
+}
+.error-section h1 {
+  margin-bottom: 2rem;
+}
+.image-container {
+  width: 100%;
+}
+.cocktail {
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  transition: 0.3s;
+}
+.cocktail:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.cocktail-footer {
+  padding: 1rem;
+}
+.cocktail-footer h3 {
+  margin-bottom: 0.5rem;
+}
+.cocktail-footer h4 {
+  margin-bottom: 0.2rem;
+}
+.cocktail-footer p {
+  margin-bottom: 1rem;
+}
+.grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+
+  padding: 10px;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.form-control {
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin: 0 auto;
+  display: grid;
+  row-gap: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.form-control input {
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px 5px;
+
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.form-control label {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 600;
+}
+.cocktail-section {
+  width: 100%;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+.cocktail-section .btn {
+  margin: 0 auto;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  display: table;
+}
+.drink {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  gap: 2rem;
+  padding: 4rem;
+  width: 100%;
+}
+.cocktail-section img {
+  max-height: 500px;
+  object-fit: cover;
+}
+.drink-info {
+  width: 100%;
+  display: grid;
+  row-gap: 1rem;
+}
+.drink-data {
+  text-transform: capitalize;
+  font-size: 20px;
+  background-color: aqua;
+  margin-right: 1rem;
+  font-weight: 500;
+}
+.drink-info p {
+  line-height: 20px;
+}
