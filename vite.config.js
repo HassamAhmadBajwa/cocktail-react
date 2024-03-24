@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/cocktail-project-react/",
   plugins: [react()],
-  base: "/react-cocktail-project",
 });
